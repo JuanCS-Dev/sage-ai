@@ -1,0 +1,125 @@
+# MAXIMUS Personal Assistant - Git Ignore
+# ======================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+secretary_memory.db
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# API Keys and Secrets
+*_secrets.json
+*_credentials.json
+*.key
+*.pem
+
+# Data
+data/*.db
+data/*.sqlite
+data/*.json
+!data/.gitkeep
+
+# Documentation build
+docs/_build/
+site/
+
+# Package files
+*.tar.gz
+*.zip
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# Playwright
+.playwright/
+
+# Node (if using any JS tooling)
+node_modules/
+package-lock.json
