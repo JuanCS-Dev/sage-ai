@@ -27,9 +27,9 @@ python-dateutil>=2.8.0  # Date utilities
 # Optional: Advanced Features
 # ---------------------------
 
-# Web Automation (if MABA not available)
-playwright>=1.40.0      # Browser automation
-selenium>=4.15.0        # Web driver
+# Web Automation (SAGE 3.0 Browser Automation)
+playwright>=1.40.0      # Browser automation - REQUIRED for Week 1-8
+# selenium>=4.15.0      # Web driver (alternative)
 
 # Machine Learning (future)
 # scikit-learn>=1.3.0   # ML algorithms
