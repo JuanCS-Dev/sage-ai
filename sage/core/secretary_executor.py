@@ -30,7 +30,7 @@ from datetime import datetime
 from anthropic import Anthropic
 
 # Import do agente base
-from secretary_agent import SecretaryAgent, Task, Note
+from .secretary_agent import SecretaryAgent, Task, Note
 
 
 # ============================================================================

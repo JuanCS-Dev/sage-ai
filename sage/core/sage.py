@@ -37,7 +37,7 @@ from anthropic import Anthropic
 from enum import Enum
 
 # Import do executor base
-from secretary_executor import SecretaryExecutor, ExecutableTask, RoadmapStep
+from .secretary_executor import SecretaryExecutor, ExecutableTask, RoadmapStep
 
 
 # ============================================================================

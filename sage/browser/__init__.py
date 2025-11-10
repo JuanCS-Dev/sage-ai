@@ -26,5 +26,32 @@ Version: 0.1.0 (Week 1 - Foundation)
 __version__ = "0.1.0"
 __author__ = "MAXIMUS AI"
 
-# Imports will be added as components are implemented
-__all__ = []
+# Core browser controller interface and implementations
+from .browser_controller import (
+    BrowserController,
+    BrowserConfig,
+    BrowserType,
+    BrowserControllerError,
+    BrowserLaunchError,
+    BrowserNotLaunchedError,
+    NavigationError,
+    ScreenshotError,
+    ScriptExecutionError,
+)
+
+from .playwright_controller import PlaywrightBrowserController
+
+__all__ = [
+    # Core classes
+    "BrowserController",
+    "BrowserConfig",
+    "BrowserType",
+    "PlaywrightBrowserController",
+    # Exceptions
+    "BrowserControllerError",
+    "BrowserLaunchError",
+    "BrowserNotLaunchedError",
+    "NavigationError",
+    "ScreenshotError",
+    "ScriptExecutionError",
+]

@@ -11,7 +11,7 @@ aiohttp>=3.9.0          # Asynchronous HTTP
 httpx>=0.25.0           # Modern HTTP client
 
 # Data & Storage
-sqlite3                 # Built-in: Database
+# sqlite3               # Built-in: Database (not pip-installable)
 pydantic>=2.0.0         # Data validation
 pydantic-settings>=2.0.0 # Settings management
 
