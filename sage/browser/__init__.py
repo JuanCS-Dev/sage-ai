@@ -41,12 +41,25 @@ from .browser_controller import (
 
 from .playwright_controller import PlaywrightBrowserController
 
+# Screenshot utilities
+from .screenshot_utils import (
+    ScreenshotProcessor,
+    ScreenshotMetadata,
+    encode_screenshot_base64,
+    prepare_screenshot_for_claude,
+)
+
 __all__ = [
     # Core classes
     "BrowserController",
     "BrowserConfig",
     "BrowserType",
     "PlaywrightBrowserController",
+    # Screenshot utilities
+    "ScreenshotProcessor",
+    "ScreenshotMetadata",
+    "encode_screenshot_base64",
+    "prepare_screenshot_for_claude",
     # Exceptions
     "BrowserControllerError",
     "BrowserLaunchError",
