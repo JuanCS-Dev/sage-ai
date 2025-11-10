@@ -49,6 +49,36 @@ from .screenshot_utils import (
     prepare_screenshot_for_claude,
 )
 
+# Action schema
+from .actions import (
+    # Enums
+    ActionType,
+    ScrollDirection,
+    WaitCondition,
+    KeyboardKey,
+    # Core classes
+    ElementSelector,
+    Action,
+    # Action types
+    ClickAction,
+    TypeAction,
+    ScrollAction,
+    NavigateAction,
+    WaitAction,
+    PressKeyAction,
+    HoverAction,
+    SelectAction,
+    # Convenience functions
+    click,
+    type_text,
+    scroll,
+    navigate,
+    wait,
+    press_key,
+    hover,
+    select,
+)
+
 __all__ = [
     # Core classes
     "BrowserController",
@@ -60,6 +90,31 @@ __all__ = [
     "ScreenshotMetadata",
     "encode_screenshot_base64",
     "prepare_screenshot_for_claude",
+    # Action schema - Enums
+    "ActionType",
+    "ScrollDirection",
+    "WaitCondition",
+    "KeyboardKey",
+    # Action schema - Classes
+    "ElementSelector",
+    "Action",
+    "ClickAction",
+    "TypeAction",
+    "ScrollAction",
+    "NavigateAction",
+    "WaitAction",
+    "PressKeyAction",
+    "HoverAction",
+    "SelectAction",
+    # Action schema - Convenience functions
+    "click",
+    "type_text",
+    "scroll",
+    "navigate",
+    "wait",
+    "press_key",
+    "hover",
+    "select",
     # Exceptions
     "BrowserControllerError",
     "BrowserLaunchError",
